@@ -22,46 +22,83 @@
          <form id="formOne">
           <div class="form-group">
            <p>1.Do you like to work on back-end?</p>
-             <select class="form-control" id="booleans">
-              <option>yes</option>
-              <option>no</option>
-            </select>
+           <div class="radio">
+             <label>
+               <input type="radio" name="yesno" value="yes">
+               YES
+             </label>
+            </div>
+            <div class="radio">
+             <label>
+               <input type="radio" name="yesno" value="no">
+               NO
+             </label>
+            </div>
+
           </div>
           <div class="form-group">
           <p>2.Do you like to work on front-end?</p>
 
-
-            <select class="form-control" id="booleans">
-              <option>yes</option>
-              <option>no</option>
-            </select>
+            <label>
+              <input type="radio" name="yesno" value="yes">
+              YES
+            </label>
+           </div>
+           <div class="radio">
+            <label>
+              <input type="radio" name="yesno" value="no">
+              NO
+            </label>
           </div>
           <div class="form-group">
             <p>3.Do you like to have a job in Microsoft?</p>
-
-            <select class="form-control" id="booleans">
-              <option>yes</option>
-              <option>no</option>
-            </select>
+            <label>
+                <input type="radio" name="yesno" value="yes">
+                YES
+              </label>
+             </div>
+             <div class="radio">
+              <label>
+                <input type="radio" name="yesno" value="no">
+                NO
+              </label>
           </div>
           <div class="form-group">
             <p>4.Do you want to live in Seattle?</p>
 
-            <select class="form-control" id="booleans">
-              <option>yes</option>
-              <option>no</option>
-            </select>
+              <label>
+                <input type="radio" name="yesno" value="yes">
+                YES
+              </label>
+             </div>
+             <div class="radio">
+              <label>
+                <input type="radio" name="yesno" value="no">
+                NO
+              </label>
+
           </div>
           <div class="form-group">
             <p>5.Do you like making design?</p>
 
-            <select class="form-control" id="booleans">
-              <option>yes</option>
-              <option>no</option>
-            </select>
+              <label>
+                <input type="radio" name="yesno" value="yes">
+                YES
+              </label>
+             </div>
+             <div class="radio">
+              <label>
+                <input type="radio" name="yesno" value="no">
+                NO
+              </label>
+
           </div>
           <button type="submit" class="btn">See what language is best for you!</button>
         </form>
+        <div class="result">
+          <p id="c">C#</p>
+          <p id="ruby">ruby</p>
+          <p id="javascript">javascript</p>
       </div>
      </div>
   </body>

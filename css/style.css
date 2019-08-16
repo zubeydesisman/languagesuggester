@@ -4,3 +4,7 @@
   padding: 50px;
   background-color: pink;
 }
+
+.result {
+  display: none
+}
