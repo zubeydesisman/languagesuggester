@@ -1,12 +1,22 @@
 $(document).ready(function() {
   $("#formOne").submit(function(event) {
-    var booleans1 = $("#booleans1").val();
-    var booleans2 = $("#booleans2").val();
+    event.preventDefault();
+    var answerOne = $("input:radio[name=answer]:checked").val();
+    var answerTwo = $("input:radio[name=answer]:checked").val();
+    var answerThree = $("input:radio[name=answer]:checked").val();
+    var answerFour = $("input:radio[name=answer]:checked").val();
+    var answerFive = $("input:radio[name=answer]:checked").val();
 
-    if (booleans1!===booleans2){
-      $("c").show();
+    if (answerOne === "YES" && answerThree === "YES" && answerFour ==="YES") {
+     $(".output").show();
+     $("#C").text("C#");
+    }
+    if (answerTwo === "YES" && answerFive === "YES" && answerFour ==="YES") {
+      $("#sruby").text("RUBY");
+      $(".output").show();
     }
 
-  }
-  event.preventDefault();
+
+
+  });
 });

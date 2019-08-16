@@ -1,105 +1,101 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
-  <head>
-    <meta charset="utf-8">
-    <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
-    <link href="css/style.css" rel="stylesheet" type="text/css">
-    <script src="js/jquery-4.3.1.js"></script>
-    <script src="js/script.js"></script>
-    <title>Language Suggester</title>
-  </head>
-  <body>
+<head>
+  <meta charset="utf-8">
+  <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
+  <link href="css/style.css" rel="stylesheet" type="text/css">
+  <script src="js/jquery-4.3.1.js"></script>
+  <script src="js/script.js"></script>
+  <title>Language Suggester</title>
+</head>
+<body>
   <div class="container">
     <h1 >Which language is best for you?</h1>
-     <ul>
-       <div class="box">
-         <li>C#</li>
-         <li>Ruby</li>
-         <li>Javascript</li>
-       </div>
-        </ul>
-        <div>
-         <form id="formOne">
-          <div class="form-group">
-           <p>1.Do you like to work on back-end?</p>
-           <div class="radio">
-             <label>
-               <input type="radio" name="yesno" value="yes">
-               YES
-             </label>
-            </div>
-            <div class="radio">
-             <label>
-               <input type="radio" name="yesno" value="no">
-               NO
-             </label>
-            </div>
-
-          </div>
-          <div class="form-group">
-          <p>2.Do you like to work on front-end?</p>
-
+    <ul>
+      <div class="box">
+        <li>C#</li>
+        <li>Ruby</li>
+        <li>Javascript</li>
+      </div>
+    </ul>
+    <div>
+      <form id="formOne">
+        <div class="form-group">
+          <p>1.Do you like to work on back-end?</p>
+          <div class="radio">
             <label>
-              <input type="radio" name="yesno" value="yes">
+              <input type="radio" name="answer" value="yes1">
               YES
             </label>
-           </div>
-           <div class="radio">
+          </div>
+          <div class="radio">
             <label>
-              <input type="radio" name="yesno" value="no">
+              <input type="radio" name="answer" value="no1">
               NO
             </label>
           </div>
-          <div class="form-group">
-            <p>3.Do you like to have a job in Microsoft?</p>
-            <label>
-                <input type="radio" name="yesno" value="yes">
-                YES
-              </label>
-             </div>
-             <div class="radio">
-              <label>
-                <input type="radio" name="yesno" value="no">
-                NO
-              </label>
-          </div>
-          <div class="form-group">
-            <p>4.Do you want to live in Seattle?</p>
+        </div>
+        <div class="form-group">
+          <p>2.Do you like to work on front-end?</p>
 
-              <label>
-                <input type="radio" name="yesno" value="yes">
-                YES
-              </label>
-             </div>
-             <div class="radio">
-              <label>
-                <input type="radio" name="yesno" value="no">
-                NO
-              </label>
-
-          </div>
-          <div class="form-group">
-            <p>5.Do you like making design?</p>
-
-              <label>
-                <input type="radio" name="yesno" value="yes">
-                YES
-              </label>
-             </div>
-             <div class="radio">
-              <label>
-                <input type="radio" name="yesno" value="no">
-                NO
-              </label>
-
-          </div>
-          <button type="submit" class="btn">See what language is best for you!</button>
-        </form>
-        <div class="result">
-          <p id="c">C#</p>
-          <p id="ruby">ruby</p>
-          <p id="javascript">javascript</p>
+          <label>
+            <input type="radio" name="answer" value="yes2">
+            YES
+          </label>
+        </div>
+        <div class="radio">
+          <label>
+            <input type="radio" name="answer" value="no2">
+            NO
+          </label>
+        </div>
+        <div class="form-group">
+          <p>3.Do you like to have a job in Microsoft?</p>
+          <label>
+            <input type="radio" name="answer" value="yes3">
+            YES
+          </label>
+        </div>
+        <div class="radio">
+          <label>
+            <input type="radio" name="answer" value="no3">
+            NO
+          </label>
+        </div>
+        <div class="form-group">
+          <p>4.Do you want to live in Seattle?</p>
+          <label>
+            <input type="radio" name="answer" value="yes4">
+            YES
+          </label>
+        </div>
+        <div class="radio">
+          <label>
+            <input type="radio" name="answer" value="no4">
+            NO
+          </label>
+        </div>
+        <div class="form-group">
+          <p>5.Do you like making design?</p>
+          <label>
+            <input type="radio" name="answer" value="yes5">
+            YES
+          </label>
+        </div>
+        <div class="radio">
+          <label>
+            <input type="radio" name="answer" value="no5">
+            NO
+          </label>
+        </div>
+        <button type="submit" class="btn">See what language is best for you!</button>
+      </form
+    </div>
+       <div class= "output" id="result">
+        <p id="C">C#</p>
+        <p id="ruby">Ruby</p>
+        <p id="javascript">Javascript</p>
       </div>
-     </div>
+    </div>
   </body>
-</html>
+  </html>
