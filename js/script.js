@@ -1,4 +1,4 @@
-$(document).ready(function() {
+  $(document).ready(function() {
   $("#formOne").submit(function(event) {
     event.preventDefault();
     var answerOne = $("input:radio[name=answer]:checked").val();
