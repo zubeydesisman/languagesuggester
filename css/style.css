@@ -1,3 +1,6 @@
-h1 {
-  font-weight: bold;
+.box {
+  margin: 50px;
+  border: 2px blue;
+  padding: 50px;
+  background-color: pink;
 }
